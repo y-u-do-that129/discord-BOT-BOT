@@ -1,0 +1,19 @@
+import discord
+form discord.ext.commands import Bot
+from discord.ext import commands
+import asyncio
+import time
+
+Client = discord.Client()
+client = command = commands.Bot(command_prefix = "~"
+
+@client.event
+async def on_ready():
+  print("Bot is ready")
+  
+@client.event
+async def on_message(message):
+  if message.content == "cookie":
+      awaut client.send_message(message.channel, ":cookie:"
+
+client.run("y1YiDwEjynLrRo45dZqusdUvMCcwpcL4")
